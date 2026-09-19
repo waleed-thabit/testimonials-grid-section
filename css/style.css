@@ -30,6 +30,19 @@ body {
 }
 main {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+p {
+  font-size: 13px;
+  font-weight: 500;
+}
+h3 {
+  font-weight: 600;
+}
+strong {
+  font-weight: 500;
 }
 
 /* Collect all the common attributes  */
@@ -62,6 +75,11 @@ main {
   background-color: var(--white);
   color: var(--grey-400);
 }
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
 
 header {
   display: flex;
@@ -75,6 +93,7 @@ header {
 }
 .user-status {
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 .card-1 header img {
   border: 2px solid var(--purple-300);
