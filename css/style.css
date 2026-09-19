@@ -62,3 +62,32 @@ main {
   background-color: var(--white);
   color: var(--grey-400);
 }
+
+header {
+  display: flex;
+  gap: 20px;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.user-status {
+  margin-top: 5px;
+}
+.card-1 header img {
+  border: 2px solid var(--purple-300);
+}
+.card-2 header img {
+  border: 2px solid var(--grey-200);
+}
+.card-3 header img {
+  border: 2px solid var(--grey-400);
+}
+.card-4 header img {
+  border: 2px solid var(--purple-500);
+}
+.card-5 header img {
+  border: 2px solid var(--grey-400);
+}
