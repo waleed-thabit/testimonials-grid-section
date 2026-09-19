@@ -23,3 +23,17 @@ html {
   background-color: var(--white);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Collect all the common attributes  */
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  border-radius: 10px;
+}
