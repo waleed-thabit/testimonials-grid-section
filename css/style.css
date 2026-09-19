@@ -20,13 +20,16 @@ html {
   min-height: 100dvb;
   margin: 0;
   padding: 0;
-  background-color: var(--white);
+  background-color: var(--grey-100);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+main {
+  padding: 30px;
 }
 
 /* Collect all the common attributes  */
@@ -36,4 +39,26 @@ body {
 .card-4,
 .card-5 {
   border-radius: 10px;
+  padding: 30px;
+}
+
+.card-1 {
+  background-color: var(--purple-500);
+  color: var(--white);
+}
+.card-2 {
+  background-color: var(--grey-500);
+  color: var(--white);
+}
+.card-3 {
+  background-color: var(--white);
+  color: var(--grey-400);
+}
+.card-4 {
+  background-color: var(--dark-blue);
+  color: var(--grey-100);
+}
+.card-5 {
+  background-color: var(--white);
+  color: var(--grey-400);
 }
