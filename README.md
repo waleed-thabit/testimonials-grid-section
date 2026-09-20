@@ -31,11 +31,11 @@ Mobile:
 
 Desktop:
 
-![Desktop layout](./assets/preview/screenshot-1.png)
+![Desktop layout](./assets/preview/screenshot-2.png)
 
 Desktop, with my custom hover effect on a card:
 
-![Desktop layout with the hover effect](./assets/preview/screenshot-2.png)
+![Desktop layout with the hover effect](./assets/preview/screenshot-1.png)
 
 ### Links
 
