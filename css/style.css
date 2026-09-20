@@ -1,3 +1,4 @@
+/* golbal variables  */
 :root {
   --purple-50: hsl(260, 100%, 95%);
   --purple-300: hsl(264, 82%, 80%);
@@ -10,7 +11,7 @@
   --dark-blue: hsl(219, 29%, 14%);
   --black: hsl(0, 0%, 7%);
 }
-
+/* reset css  */
 * {
   box-sizing: border-box;
 }
@@ -23,6 +24,7 @@ html {
   background-color: var(--grey-100);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -33,7 +35,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 1440px;
 }
 p {
   font-weight: 500;
